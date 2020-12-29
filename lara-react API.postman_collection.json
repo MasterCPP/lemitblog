@@ -1,0 +1,1859 @@
+{
+	"info": {
+		"_postman_id": "6b83a042-8a68-4808-87ca-345178fc4afa",
+		"name": "lara-react API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authenticated",
+			"item": [
+				{
+					"name": "post",
+					"item": [
+						{
+							"name": "List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/post",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"post"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "List",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/post",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"post"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Wed, 08 Jan 2020 10:42:35 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Content-Length",
+											"value": "5073"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"id\": 1,\n        \"category_id\": \"1\",\n        \"title\": \"This is Amazing Indias\",\n        \"featured_image\": \"9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n        \"content\": \"<b>Gevolglik</b> sal die doelwitte van stakings die produsente se verander van veeleisende stygings in lone aan die beheer van hul aandeel in die produksie\",\n        \"status\": \"PUBLISH\",\n        \"created_at\": \"2019-12-30 10:33:10\",\n        \"updated_at\": \"2020-01-08 10:22:05\",\n        \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n        \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n        \"category\": {\n            \"id\": 1,\n            \"name\": \"Foods\",\n            \"created_at\": \"2019-12-30 10:12:42\",\n            \"updated_at\": \"2020-01-06 09:15:38\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"category_id\": \"1\",\n        \"title\": \"Dus, al die arbeidsmag wat werk vir die samelewing is sielkundig apaties\",\n        \"featured_image\": \"default.png\",\n        \"content\": \"Omdat die een eenheid is al wat nodig is om in die <b>behoeftes</b> van 'n individu te voldoen, is die addisionele eenhede verkry vir die doel van spaar Daar is geen regverdiging vir sodanige <i>optrede</i>, deur die diktatoriale argument is dat die samelewing eintlik bestaan ​​uit talle segmente, waarvan een die likwidasie van ander onderneem om slegs te bly in krag\",\n        \"status\": \"DRAFT\",\n        \"created_at\": \"2019-12-30 10:34:35\",\n        \"updated_at\": \"2019-12-30 10:34:35\",\n        \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/default.png\",\n        \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/default.png\",\n        \"category\": {\n            \"id\": 1,\n            \"name\": \"Foods\",\n            \"created_at\": \"2019-12-30 10:12:42\",\n            \"updated_at\": \"2020-01-06 09:15:38\"\n        }\n    },\n    {\n        \"id\": 4,\n        \"category_id\": \"8\",\n        \"title\": \"The family is like a plant, with branches, stems, leaves and blossoms\",\n        \"featured_image\": \"default.png\",\n        \"content\": \"<p><i><strong>Mass</strong></i> movements are independent movements to assert the identity of a group conquered or oppressed by another group</p><p>The elections and plebiscites were <strong>invented</strong> to cover the failure of these unsuccessful experiments to solve this problem</p><p>Man's work obscures woman's beautiful features which are created for female roles</p><p>Cultivating nature into farms and gardens is an <a href=\\\"https:www.google.com\\\">artificial </a>process that has no relevance to the plant itself</p><p>All that is left before the masses now is the struggle to eliminate all prevailing forms of dictatorial governments, be they parliament, sect, tribe, class, one-party system, two-party system or multi-party system, which falsely call themselves democracies</p><p>Domestic servants, paid or unpaid, are a type of slave</p>\",\n        \"status\": \"PUBLISH\",\n        \"created_at\": \"2020-01-06 09:44:02\",\n        \"updated_at\": \"2020-01-06 09:44:02\",\n        \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/default.png\",\n        \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/default.png\",\n        \"category\": {\n            \"id\": 8,\n            \"name\": \"Kirana\",\n            \"created_at\": \"2020-01-03 10:40:42\",\n            \"updated_at\": \"2020-01-03 10:40:42\"\n        }\n    },\n    {\n        \"id\": 5,\n        \"category_id\": \"6\",\n        \"title\": \"Digital India is real ???\",\n        \"featured_image\": \"default.png\",\n        \"content\": \"<h2>Digital India is real ???</h2><p>&nbsp;</p><p>Wage-earners, however improved their wages may be, are a type of slave</p><p>The population of other races has decreased because of birth control, restrictions on marriage, and constant occupation in work, unlike the Blacks, who tend to be less obsessive about work in a climate which is continuously hot</p><p>Stress should be laid on social reality and family care in order to bring up an integrated well-educated human</p><p>Thus, these social bonds, benefits, advantages and ideals associated with them are lost wherever the family, the tribe, the nation or humankind vanish or are lost</p><p>The social relationship is, therefore, a national relationship and the national is a social relationship</p><p>Popular Conferences and People's Committees are the fruition of the people's struggle for democracy</p><p>It is right of all people for their health and recreational benefit</p>\",\n        \"status\": \"DRAFT\",\n        \"created_at\": \"2020-01-06 09:44:58\",\n        \"updated_at\": \"2020-01-06 10:44:17\",\n        \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/default.png\",\n        \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/default.png\",\n        \"category\": {\n            \"id\": 6,\n            \"name\": \"Animals\",\n            \"created_at\": \"2020-01-03 10:25:21\",\n            \"updated_at\": \"2020-01-04 11:06:39\"\n        }\n    },\n    {\n        \"id\": 11,\n        \"category_id\": \"1\",\n        \"title\": \"This is the title 2 66dfsfsd\",\n        \"featured_image\": \"default.png\",\n        \"content\": \"<p>Hello lorem ipsum</p>\",\n        \"status\": \"PUBLISH\",\n        \"created_at\": \"2020-01-08 10:38:00\",\n        \"updated_at\": \"2020-01-08 10:38:00\",\n        \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/default.png\",\n        \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/default.png\",\n        \"category\": {\n            \"id\": 1,\n            \"name\": \"Foods\",\n            \"created_at\": \"2019-12-30 10:12:42\",\n            \"updated_at\": \"2020-01-06 09:15:38\"\n        }\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "Create",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "category_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "title",
+											"value": "This is the title 2 66dfsfsdasasassa",
+											"type": "text"
+										},
+										{
+											"key": "content",
+											"value": "<p>Hello lorem ipsum</p>",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "PUBLISH",
+											"type": "text"
+										},
+										{
+											"key": "featured_img",
+											"type": "file",
+											"src": []
+										}
+									],
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/post",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"post"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "category_id",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "title",
+													"value": "This is the title 2 66dfsfsd",
+													"type": "text"
+												},
+												{
+													"key": "content",
+													"value": "<p>Hello lorem ipsum</p>",
+													"type": "text"
+												},
+												{
+													"key": "status",
+													"value": "PUBLISH",
+													"type": "text"
+												},
+												{
+													"key": "featured_img",
+													"type": "file",
+													"src": []
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/post",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"post"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Wed, 08 Jan 2020 10:38:00 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Content-Length",
+											"value": "401"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"success\",\n    \"data\": {\n        \"category_id\": \"1\",\n        \"title\": \"This is the title 2 66dfsfsd\",\n        \"content\": \"<p>Hello lorem ipsum</p>\",\n        \"status\": \"PUBLISH\",\n        \"updated_at\": \"2020-01-08 10:38:00\",\n        \"created_at\": \"2020-01-08 10:38:00\",\n        \"id\": 11,\n        \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/\",\n        \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "category_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "title",
+											"value": "This is Amazing Indias",
+											"type": "text"
+										},
+										{
+											"key": "content",
+											"value": "<b>Gevolglik</b> sal die doelwitte van stakings die produsente se verander van veeleisende stygings in lone aan die beheer van hul aandeel in die produksie",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "PUBLISH",
+											"type": "text"
+										},
+										{
+											"key": "featured_img",
+											"type": "file",
+											"src": "/C:/Users/AVC/Pictures/michael-podger-z_d21Hg7CF0-unsplash.jpg"
+										},
+										{
+											"key": "_method",
+											"value": "PUT",
+											"type": "text"
+										}
+									],
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/post/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"post",
+										"1"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "category_id",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "title",
+													"value": "This is Amazing Indias",
+													"type": "text"
+												},
+												{
+													"key": "content",
+													"value": "<b>Gevolglik</b> sal die doelwitte van stakings die produsente se verander van veeleisende stygings in lone aan die beheer van hul aandeel in die produksie",
+													"type": "text"
+												},
+												{
+													"key": "status",
+													"value": "PUBLISH",
+													"type": "text"
+												},
+												{
+													"key": "featured_img",
+													"type": "file",
+													"src": []
+												},
+												{
+													"key": "_method",
+													"value": "PUT",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/post/1",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"post",
+												"1"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Wed, 08 Jan 2020 10:38:31 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Content-Length",
+											"value": "680"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 1,\n        \"category_id\": \"1\",\n        \"title\": \"This is Amazing Indias\",\n        \"featured_image\": \"9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n        \"content\": \"<b>Gevolglik</b> sal die doelwitte van stakings die produsente se verander van veeleisende stygings in lone aan die beheer van hul aandeel in die produksie\",\n        \"status\": \"PUBLISH\",\n        \"created_at\": \"2019-12-30 10:33:10\",\n        \"updated_at\": \"2020-01-08 10:22:05\",\n        \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n        \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Show",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "{{base_url}}/post/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"post",
+										"1"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Show",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": []
+										},
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/post/1",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"post",
+												"1"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Wed, 08 Jan 2020 10:38:37 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "56"
+										},
+										{
+											"key": "Content-Length",
+											"value": "756"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 1,\n    \"category_id\": \"1\",\n    \"title\": \"This is Amazing Indias\",\n    \"featured_image\": \"9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n    \"content\": \"<b>Gevolglik</b> sal die doelwitte van stakings die produsente se verander van veeleisende stygings in lone aan die beheer van hul aandeel in die produksie\",\n    \"status\": \"PUBLISH\",\n    \"created_at\": \"2019-12-30 10:33:10\",\n    \"updated_at\": \"2020-01-08 10:22:05\",\n    \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n    \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n    \"category\": {\n        \"id\": 1,\n        \"name\": \"Foods\",\n        \"created_at\": \"2019-12-30 10:12:42\",\n        \"updated_at\": \"2020-01-06 09:15:38\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/post/3",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"post",
+										"3"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Status",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/post/status",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"post",
+										"status"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get Status",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/post/status",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"post",
+												"status"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 30 Dec 2019 10:45:34 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "56"
+										},
+										{
+											"key": "Content-Length",
+											"value": "37"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=99"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"PUBLISH\": \"PUBLISH\",\n    \"DRAFT\": \"DRAFT\"\n}"
+								}
+							]
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "category",
+					"item": [
+						{
+							"name": "List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/category",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"category"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "list",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/category",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"category"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 30 Dec 2019 10:14:42 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Content-Length",
+											"value": "300"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Food\",\n        \"created_at\": \"2019-12-30 10:12:42\",\n        \"updated_at\": \"2019-12-30 10:12:42\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Lost Animals\",\n        \"created_at\": \"2019-12-30 10:13:22\",\n        \"updated_at\": \"2019-12-30 10:13:22\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Incredible Birds\",\n        \"created_at\": \"2019-12-30 10:14:08\",\n        \"updated_at\": \"2019-12-30 10:14:08\"\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "Create",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"name\":\"Incredible Birds\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/category",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"category"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"name\":\"Incredible Birds\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/category",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"category"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 30 Dec 2019 10:14:08 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Content-Length",
+											"value": "133"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"success\",\n    \"data\": {\n        \"name\": \"Incredible Birds\",\n        \"updated_at\": \"2019-12-30 10:14:08\",\n        \"created_at\": \"2019-12-30 10:14:08\",\n        \"id\": 3\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"name\":\"Foods\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/category/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"category",
+										"1"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Update",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"name\":\"Foods\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/category/1",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"category",
+												"1"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 30 Dec 2019 10:18:53 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Content-Length",
+											"value": "122"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Foods\",\n        \"created_at\": \"2019-12-30 10:12:42\",\n        \"updated_at\": \"2019-12-30 10:18:53\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/category/1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"category",
+										"1"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Show",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/category/1",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"category",
+												"1"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 30 Dec 2019 10:19:58 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Content-Length",
+											"value": "93"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 1,\n    \"name\": \"Foods\",\n    \"created_at\": \"2019-12-30 10:12:42\",\n    \"updated_at\": \"2019-12-30 10:18:53\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/category/5",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"category",
+										"5"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "profile",
+					"item": [
+						{
+							"name": "Profile update",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"name\":\"Ronak Admin\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/profile/profile-update",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"profile",
+										"profile-update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Profile update",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"name\":\"Ronak Admin\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/profile/profile-update",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"profile",
+												"profile-update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Tue, 07 Jan 2020 11:30:22 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Content-Length",
+											"value": "42"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"Profile updated successfully\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Change Password",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"current_password\":\"\",\n\t\"new_password\":\"\",\n\t\"conform_password\":\"\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/profile/change-password",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"profile",
+										"change-password"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Change Password",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"current_password\":\"456789\",\n\t\"new_password\":\"123456\",\n\t\"conform_password\":\"123456\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost/lara-react/public/api/profile/change-password",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"path": [
+												"lara-react",
+												"public",
+												"api",
+												"profile",
+												"change-password"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Tue, 07 Jan 2020 09:39:27 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/7.2.18"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Content-Length",
+											"value": "42"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"Password change successfully\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Profile Upload",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "profile",
+											"type": "file",
+											"src": []
+										},
+										{
+											"key": "_method",
+											"value": "PUT",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{base_url}}/profile/profile-upload",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"profile",
+										"profile-upload"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Get User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/user",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard Statistics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/dashboard/statistics",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"dashboard",
+								"statistics"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Dashboard Statistics",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/lara-react/public/api/dashboard/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"lara-react",
+										"public",
+										"api",
+										"dashboard",
+										"statistics"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 07 Jan 2020 09:56:09 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+								},
+								{
+									"key": "Vary",
+									"value": "Authorization"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.18"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Content-Length",
+									"value": "954"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"post_count\": 4,\n    \"category_count\": 7,\n    \"recent_posts\": [\n        {\n            \"id\": 5,\n            \"category_id\": \"6\",\n            \"title\": \"Digital India is real ???\",\n            \"created_at\": \"2020-01-06 09:44:58\",\n            \"category\": {\n                \"id\": 6,\n                \"name\": \"Animals\",\n                \"created_at\": \"2020-01-03 10:25:21\",\n                \"updated_at\": \"2020-01-04 11:06:39\"\n            }\n        },\n        {\n            \"id\": 4,\n            \"category_id\": \"8\",\n            \"title\": \"The family is like a plant, with branches, stems, leaves and blossoms\",\n            \"created_at\": \"2020-01-06 09:44:02\",\n            \"category\": {\n                \"id\": 8,\n                \"name\": \"Kirana\",\n                \"created_at\": \"2020-01-03 10:40:42\",\n                \"updated_at\": \"2020-01-03 10:40:42\"\n            }\n        },\n        {\n            \"id\": 2,\n            \"category_id\": \"1\",\n            \"title\": \"Dus, al die arbeidsmag wat werk vir die samelewing is sielkundig apaties\",\n            \"created_at\": \"2019-12-30 10:34:35\",\n            \"category\": {\n                \"id\": 1,\n                \"name\": \"Foods\",\n                \"created_at\": \"2019-12-30 10:12:42\",\n                \"updated_at\": \"2020-01-06 09:15:38\"\n            }\n        },\n        {\n            \"id\": 1,\n            \"category_id\": \"1\",\n            \"title\": \"This is Amazing India\",\n            \"created_at\": \"2019-12-30 10:33:10\",\n            \"category\": {\n                \"id\": 1,\n                \"name\": \"Foods\",\n                \"created_at\": \"2019-12-30 10:12:42\",\n                \"updated_at\": \"2020-01-06 09:15:38\"\n            }\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/logout",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{bearer_token}}",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "7e962d97-c4ce-413a-b7f3-67d5dd3740dd",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "50f8b170-e91a-4d9b-8313-dcc187aed40f",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"admin@gmail.com\",\n\t\"password\":\"123456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/login",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"ronak\",\n\t\"email\":\"admin@gmail.com\",\n\t\"password\":\"123456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/register",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Public Posts",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/public_posts",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"public_posts"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Public Posts",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/lara-react/public/api/public_posts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"lara-react",
+								"public",
+								"api",
+								"public_posts"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 08 Jan 2020 10:41:22 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.18"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2699"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 11,\n        \"category_id\": \"1\",\n        \"title\": \"This is the title 2 66dfsfsd\",\n        \"featured_image\": \"default.png\",\n        \"content\": \"<p>Hello lorem ipsum</p>\",\n        \"status\": \"PUBLISH\",\n        \"created_at\": \"2020-01-08 10:38:00\",\n        \"updated_at\": \"2020-01-08 10:38:00\",\n        \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/default.png\",\n        \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/default.png\",\n        \"category\": {\n            \"id\": 1,\n            \"name\": \"Foods\",\n            \"created_at\": \"2019-12-30 10:12:42\",\n            \"updated_at\": \"2020-01-06 09:15:38\"\n        }\n    },\n    {\n        \"id\": 4,\n        \"category_id\": \"8\",\n        \"title\": \"The family is like a plant, with branches, stems, leaves and blossoms\",\n        \"featured_image\": \"default.png\",\n        \"content\": \"<p><i><strong>Mass</strong></i> movements are independent movements to assert the identity of a group conquered or oppressed by another group</p><p>The elections and plebiscites were <strong>invented</strong> to cover the failure of these unsuccessful experiments to solve this problem</p><p>Man's work obscures woman's beautiful features which are created for female roles</p><p>Cultivating nature into farms and gardens is an <a href=\\\"https:www.google.com\\\">artificial </a>process that has no relevance to the plant itself</p><p>All that is left before the masses now is the struggle to eliminate all prevailing forms of dictatorial governments, be they parliament, sect, tribe, class, one-party system, two-party system or multi-party system, which falsely call themselves democracies</p><p>Domestic servants, paid or unpaid, are a type of slave</p>\",\n        \"status\": \"PUBLISH\",\n        \"created_at\": \"2020-01-06 09:44:02\",\n        \"updated_at\": \"2020-01-06 09:44:02\",\n        \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/default.png\",\n        \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/default.png\",\n        \"category\": {\n            \"id\": 8,\n            \"name\": \"Kirana\",\n            \"created_at\": \"2020-01-03 10:40:42\",\n            \"updated_at\": \"2020-01-03 10:40:42\"\n        }\n    },\n    {\n        \"id\": 1,\n        \"category_id\": \"1\",\n        \"title\": \"This is Amazing Indias\",\n        \"featured_image\": \"9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n        \"content\": \"<b>Gevolglik</b> sal die doelwitte van stakings die produsente se verander van veeleisende stygings in lone aan die beheer van hul aandeel in die produksie\",\n        \"status\": \"PUBLISH\",\n        \"created_at\": \"2019-12-30 10:33:10\",\n        \"updated_at\": \"2020-01-08 10:22:05\",\n        \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n        \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n        \"category\": {\n            \"id\": 1,\n            \"name\": \"Foods\",\n            \"created_at\": \"2019-12-30 10:12:42\",\n            \"updated_at\": \"2020-01-06 09:15:38\"\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Public Post View",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/public_post/1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"public_post",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Public Post View",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/lara-react/public/api/public_post/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"lara-react",
+								"public",
+								"api",
+								"public_post",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 08 Jan 2020 10:41:32 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.39 (Win64) PHP/7.2.18"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.18"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "Content-Length",
+							"value": "756"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"category_id\": \"1\",\n    \"title\": \"This is Amazing Indias\",\n    \"featured_image\": \"9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n    \"content\": \"<b>Gevolglik</b> sal die doelwitte van stakings die produsente se verander van veeleisende stygings in lone aan die beheer van hul aandeel in die produksie\",\n    \"status\": \"PUBLISH\",\n    \"created_at\": \"2019-12-30 10:33:10\",\n    \"updated_at\": \"2020-01-08 10:22:05\",\n    \"featured_image_url\": \"http://localhost/lara-react/public/storage/post_img/9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n    \"featured_image_thumb_url\": \"http://localhost/lara-react/public/storage/post_img/thumb/9taCCstxpihSo9bxJzYpatkBrN743WRhKMdXs6VT.jpeg\",\n    \"category\": {\n        \"id\": 1,\n        \"name\": \"Foods\",\n        \"created_at\": \"2019-12-30 10:12:42\",\n        \"updated_at\": \"2020-01-06 09:15:38\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "10a07697-fd45-418e-9ed5-e3a73acc63a1",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "97985171-7db5-4bcc-8d5a-4c41ae4b8739",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "dcb37ba6-b08a-4ab7-8d2a-af0900b45394",
+			"key": "base_url",
+			"value": "http://localhost/lara-react/public/api",
+			"type": "string"
+		},
+		{
+			"id": "6ac8da4c-b1ea-44cf-8aa7-e338ad942e69",
+			"key": "bearer_token",
+			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOGU3MGYzNGQ0Mjk5ZTUzMTBiYzkxNjY3YTRkODc0MjA3MTY2N2ZiODVlN2M5YzYxY2YwNWQxNWRiMjRjNzhjMmUxMjAzNmE2ZTdhY2Q2ODIiLCJpYXQiOjE1Nzg1Njg0NTcsIm5iZiI6MTU3ODU2ODQ1NywiZXhwIjoxNjEwMTkwODU3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.RwZqF825sT1ZVTw_dg-FsdGEMGe3eqv_bAXtFb3RBInFNXon7cWZ8WTuWfvz9qiMP3pPu-jDeMjSs3PfpHi_xjHrfVCdMQaaC21DvV187e9iXQRraI3AXp83FLAPnjaXzslzoFYeSJw9wnvqKs7eG0foje7VRIINNTzR3E9thsPGPiQaRk4_iLdJIZNO9OhMJMtQ5zMjRiyx3mldrnNMgpbl3RaIgnFD-LnifXRrL2okH6curmkR3EEUnnAPfBTWWtRPnuQwyZKwf4ByNJtWbQxTcDRajhmVlgkP6VXSSRgVJKiT_YbmHubPXc-RR6q-p2Q48KotTZndMLmFWjsNk9WLzS886U-NIpZhdFf81j2BnO4O3GZBkS3iGTnEE6KAGOCG4ls-NisSAolTqjervD89Vh75JEEi18j-IobN-UBwR4wZ6JpBqfV9lj1UfUone-1b3VuaiAxAlP5OWbtM9ABZ_nMzkktuwMd31-7hbeuLzsUktl3YWVt3IdpCiKKEYhUuQGHl3SoS65dbuE2UngUvjV8b-xMXlsn41YwpZ_Kn5fZkn6lhubOUTE83CMPMiiWqsb_otZNj-ILuXlZrfYmtl313lu-9mVQ0m_zge5jlQzMRzvZZVfeqoL3zGoMsDsMCibRkKykkUIupl9se3vmxIfBtkcXxasQkSQ-bBiA",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
